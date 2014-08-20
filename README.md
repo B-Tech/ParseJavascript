@@ -41,6 +41,7 @@ Wait for this (this command is grabbing the client so that you can access grunt 
 
 7. Test to make sure this is installed
 grunt --version
+
 ### Install connect module (server to host our demo)
 1. Run sudo npm install
 2. Run grunt
