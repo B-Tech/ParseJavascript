@@ -1,1 +1,8 @@
 .idea	
+.idea/workspace.xml
+
+cloudCode/cloud/main.js
+
+cloudCode/config/global.json
+
+cloudCode/public/index.html

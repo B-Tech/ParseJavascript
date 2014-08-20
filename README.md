@@ -39,12 +39,13 @@ If you already have nodejs and grunt setup, you can skip this section
 
 Wait for this (this command is grabbing the client so that you can access grunt across your system)
 
-7. Test to make sure this is installed
+Test to make sure this is installed
 grunt --version
 
 ### Install connect module (server to host our demo)
 1. Run sudo npm install
 2. Run grunt
 3. Open a browser and go to localhost:8000
+4. You should be prompted for your facebook credentials
 
 
