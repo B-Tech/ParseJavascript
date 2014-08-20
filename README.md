@@ -29,6 +29,7 @@ Parse.FacebookUtils.init({
 ```
 ### Install nodejs and grunt
 If you already have nodejs and grunt setup, you can skip this section
+
 1. Setup node.js - node.org
 2. Enter Your password to allow node to get setup.
 3. Verify node has been installed open up your command line or terminal and type
