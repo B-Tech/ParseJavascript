@@ -14,14 +14,16 @@
     //***********************************************************
 
     // Initialize Parse
-    Parse.initialize("YOUR_APP_ID", "YOUR_JAVASCRIPT_KEY");
+    Parse.initialize("HWwvhxpzsKizeYhP5Vb3iVKbEyNZvSWKorb3bFbK", "eXktpVy8Ear0sUF33VrTbduhibdOCXunjG82INp8");
+    // Parse.initialize("YOUR_APP_ID", "YOUR_JAVASCRIPT_KEY");
 
     // Initialize the Facebook SDK with Parse as described at
     // https://parse.com/docs/js_guide#fbusers
     window.fbAsyncInit = function() {
         // init the FB JS SDK
         Parse.FacebookUtils.init({
-            appId      : 'YOUR_FACEBOOK_APP_ID', // Facebook App ID
+            appId      : '526912444106766', // Facebook App ID
+            //appId      : 'YOUR_FACEBOOK_APP_ID', // Facebook App ID
             channelUrl : '//localhost:8000/channel.html', // Channel File
             status     : true, // check login status
             cookie     : true, // enable cookies to allow Parse to access the session
@@ -52,10 +54,28 @@
         ref.parentNode.insertBefore(js, ref);
     }(document, /*debug*/ false));
 
+    $(document).ready(function(){
+
+    });
 </script>
 
 <form>
+    <div id="hello" style="display: none">
+        Hello World
+        <fieldset>
+            <legend>Hello Input</legend>
+            Name: <input id="helloName" type="text">
+            <input type="button" id="helloSubmit" value="Add name">
+        </fieldset>
+    </div>
 
+
+    <div id="helloMessages">
+        <fieldset id="messageFS">
+            <legend>Hello Messages</legend><input type="button" id="refreshMessages" value="Refresh">
+
+        </fieldset>
+    </div>
 </form>
 </body>
 </html>
